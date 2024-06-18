@@ -12,7 +12,7 @@ Welcome to the Nostos OS GitHub organization! Nostos OS is a minimalist operatin
 
 ## Getting Started
 ### Prerequisites
-1. A development environment with a cross-compiler for building the OS.
+1. A development environment with a cross-compiler for building the OS (OS Built using Assembly/C/C++/Rust).
 2. An emulator like QEMU for testing, or a bootable USB for running on actual hardware.
 
 ## Contributing
