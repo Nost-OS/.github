@@ -1,0 +1,62 @@
+Nostos (Nostolgia OS)
+
+0: Objective
+  An Operating System for running classic games
+    a. Classic computer games (Tetris, Space Invaders, Pong...)
+    b. Console games (Gameboy, NES...)
+  
+  Target Users:
+    a. Nostolgic gamers
+    b. Students to learn
+
+1: System Design
+  1: System Architecture
+    +-----------------------+
+    |       Bootloader      |
+    +-----------------------+
+              |
+              V
+    +-----------------------+
+    |        Kernel         |
+    | +-------------------+ |
+    | | Memory Management | |
+    | +-------------------+ |
+    | +-------------------+ |
+    | | Process Management| |
+    | +-------------------+ |
+    | +-------------------+ |
+    | |   System Calls    | |
+    | +-------------------+ |
+    | +-------------------+ |
+    | | Basic Drivers     | |
+    | | - Audio           | |
+    | | - Keyboard        | |
+    | | - Display         | |
+    | | - Timer           | |
+    | +-------------------+ |
+    +-----------------------+
+              |
+              V
+    +-----------------------+
+    |      Game Loader      |
+    +-----------------------+
+              |
+              V
+    +-----------------------+
+    |  User Interface (UI)  |
+    +-----------------------+
+              |
+              V
+    +-----------------------+
+    |     Games (Tetris,    |
+    |   Space Invaders)     |
+    +-----------------------+
+  
+  2: Techinical Details:
+    X86 (32bits) processors (as a start)
+    ARM & ARCH (second version)
+    64bits versions come later
+
+2: Software Suite
+  1: System APIs
+  2: Community driven programs
